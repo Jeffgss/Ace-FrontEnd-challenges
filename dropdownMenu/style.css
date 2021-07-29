@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.menu-link {
+  display: flex;
+  list-style: none;
+  background: #f8f8f8;
+  padding: 10px;
+}
+
+.menu-link-item {
+  padding: 10px;
+}
+
+.menu-link-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-link-item a:hover {
+  background: #f7f7f7;
+}
+
+.menu-link-item a span {
+  font-size: 10px;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu a {
+  padding: 10px;
+}
+
+.isOpen {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px 0;
+  position: absolute;
+  background: white;
+}
