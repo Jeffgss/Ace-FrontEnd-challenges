@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #c6c1b6;
+}
+
+header {
+  display: flex;
+  background: #88a489;
+  padding: 16px;
+}
+
+header img {
+  margin-right: 8px;
+}
+
+header h1 {
+  color: white;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.creets .card {
+  display: flex;
+  background: white;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 400px;
+  border-radius: 6px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.creets .card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.creets .card .userContent {
+  margin: 0 8px;
+}
+
+.creets .card .userContent h2 {
+  font-size: 16px;
+}
+
+.creets .card .userContent span {
+  color: #adb4c1;
+  font-size: 14px;
+}
+
+.creets .card .userContent p {
+  margin: 8px 0;
+}
+
+.errorMessage {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 24px;
+  margin-top: 20%;
+}
